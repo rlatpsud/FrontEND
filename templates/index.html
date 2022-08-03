@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>LUCA_TEST</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div data-layer="24566118-16f3-4ebb-8d9c-1c439c3e95a0" class="x19201">
+        <div data-layer="e0ceec49-0917-4722-91e3-7e0417f5ee34" class="xTest">영어 발음 TEST</div>
+        
+        <div class="container" id="ttscont">
+            <div class="button-container">
+                <button id="buttonhear" class="h-button">
+                    <span class="fas fa-headphones"></span>원어민 발음듣기</button>
+                <button id="randomtt" class="blue-button">
+                    <span class="fa fa-random"></span>연습 문장</button>
+            </div> 
+             
+    
+            <div id="ttsList"></div>
+            <div class="container" id="ttsloader">
+                <div id="loader"></div>
+            </div> 
+        </div>
+        
+        <div class=container id="formcontainer">
+            <form id="reftextform">
+                <textarea id = "reftext" rows = "3" cols = "80" name = "reftext" maxlength="160" autofocus placeholder="     여기에 문장을 입력해주세요...
+        
+        연습 문장: 문장이 랜덤으로 생성됩니다.
+        원어민 발음듣기: 문장에 대한 평가 기준 음성 듣기
+        "></textarea>
+            </form>
+            <br>
+        </div>
+    
+        <div class="button-container">
+            <button id="buttonmic" class="green-button">
+                <span class="fa fa-microphone"></span>녹음</button>
+        </div>
+    
+        <div class="container" id="recordcont">
+            <div id="recordingsList"></div>
+    
+            <div class="container" id="recordloader">
+                <div id='loader'></div>
+            </div>
+
+            <div class="chart-container" style="position: static; height:30vh; width:130vw;">
+                <canvas id="radar-chart" width="0" ,height="100" ></canvas>
+            </div>
+            <div id='score' style= 'position: absolute; top: 70%; left: 52%; font-size: 200px'></div>
+            <div id='rank' style= 'position: absolute; top: 79%; left: 62%; font-size:30px '></div>
+            <div id='comment' style= 'position: absolute; top: 82%; left: 62%; font-size:30px '></div>
+
+            <div id="metrics" class="animate-bottom">
+                <div class=container>
+                    <div id="summarytable">
+                        <table>
+                            
+                            <tr>
+                                <th>정확도</th>
+                                <th>유창성</th>
+                                <th>문장 완성도</th>
+                                <th>발음 정확도</th>
+                                <th id="woh">놓친 단어</th>
+                                <th id="wih">추가된 단어</th>
+                            </tr>
+                            <tr>
+                                <td id="accuracyscore"></td>
+                                <td id="fluencyscore"></td>
+                                <td id="completenessscore"></td>
+                                <td id="pronscore"></td>
+                                <td id="wordsomitted"></td>
+                                <td id="wordsinserted"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+               
+                
+                <div class="container">
+                    <div id="detailedtable">
+                        <table>
+                            <tr id="wordrow"></tr>
+                            <tr id ="phonemerow"></tr>
+                            <tr id ="scorerow"></tr>
+                        </table>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+        
+        <footer id=footeralert> '브라우저의 마이크 권한을 허용해주세요.' </footer>
+    
+</div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="../static/index.js"></script>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+</body>
+
+</html>
+            

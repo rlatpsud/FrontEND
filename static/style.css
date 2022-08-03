@@ -1,0 +1,345 @@
+
+
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        font-family: 'Jua', sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        -webkit-font-smoothing: antialiased;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+      }
+
+      
+
+      .x19201 {
+
+      display: block;
+      position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 150.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      overflow-x: auto;
+      overflow-y: auto;
+      background-color: rgba(245, 206, 4, 1);
+      width: 1920.00px;
+    height: 1080.00px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.x19201 .xTest {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 3.50px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 255, 42, 0);
+      font-size: 70.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: 'Jua', sans-serif;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 823.00px;
+    height: 93.00px;
+    left: 549.00px;
+    top: 24.00px;
+
+}
+
+.x19201 .x {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      letter-spacing: 3.50px;
+      color: rgba(0, 0, 0, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 70.00px;
+      font-weight: 700;
+    font-style: normal;
+     font-family: 'Jua', sans-serif;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 823.00px;
+    height: 93.00px;
+    left: 549.00px;
+    top: 937.00px;
+
+}
+
+
+#reftexthead{
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+.container {
+    margin: 1em;
+    margin: -3px;
+  
+    align-items: center;
+    border-radius: 10px;
+}
+#ttscont {
+    background-color: rgba(245, 206, 4, 1);
+}
+#recordcont {
+    background-color: rgba(212, 0, 255, 0.055);
+}
+#recordingsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ttsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    width: 80%;
+    height: 300px;
+    padding: 12px 20px;
+    box-sizing: content-box;
+    border: 2px solid #ccc;
+    background-color: #f5ce04;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Jua', sans-serif;
+    resize: none;
+    margin-left: 150px;
+}
+
+
+
+.button-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+button {
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    padding: 23px 28px;
+    width: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Jua', sans-serif;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    
+}
+button span {
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+.green-button {
+    color: rgb(30, 22, 54);
+    box-shadow: rgba(245, 206, 4, 1) 0 0px 0px 2px inset;
+    background-color: #ff4e50;
+}
+.green-button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow:#ff4e50 0 0px 0px 12px inset;
+    background-color: rgba(245, 206, 4, 1);
+}
+.h-button {
+    color: rgb(30, 22, 54);
+    box-shadow: rgba(245, 206, 4, 1) 0 0px 0px 2px inset;
+    background-color: #ede574;
+    
+}
+.h-button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow:#ede574 0 0px 0px 12px inset;
+    background-color: rgba(245, 206, 4, 1);
+}
+.blue-button {
+    color: rgb(30, 22, 54);
+    box-shadow: rgba(245, 206, 4, 1) 0 0px 0px 2px inset;
+    background-color: #fc913a;
+}
+.blue-button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow:#fc913a 0 0px 0px 12px inset;
+    background-color: rgba(245, 206, 4, 1);
+}
+.red-button {
+    color: rgb(30, 22, 54);
+    box-shadow: rgba(245, 206, 4, 1) 0 0px 0px 2px inset;
+    background-color: #ff4e50;
+}
+.red-button:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow:#ff4e50 0 0px 0px 12px inset;
+    background-color: rgba(245, 206, 4, 1);
+}
+#summarytable{
+    border-spacing: 5px;
+    margin: 5px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#summarytable table, th, td{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+#detailedtable{
+    margin: 10px;
+    border-spacing: 5px;
+    overflow-x: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#detailedtable table{
+    margin: auto;
+}
+#detailedtable table, th, td{
+    text-align: center;
+    border:1px solid lightgrey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+#ttsloader{
+    display: none;
+}
+#recordloader{
+    display: none;
+}
+#loader {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin: 0px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg); }
+100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+position: relative;
+-webkit-animation-name: animatebottom;
+-webkit-animation-duration: 1s;
+animation-name: animatebottom;
+animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+from { bottom:-100px; opacity:0 } 
+to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+from{ bottom:-100px; opacity:0 } 
+to{ bottom:0px; opacity:1 }
+}
+
+#myDiv {
+display: none;
+text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: small ;
+    font-family: 'Jua', sans-serif;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 500px) {
+    button {
+        font-size: 18px;
+    }
+}

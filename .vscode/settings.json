@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e0ee6853-a2fd-4ac6-aa09-86f3ea5fb596/microsoft.web/sites/subscriptions/e0ee6853-a2fd-4ac6-aa09-86f3ea5fb596/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/LUCA-BETA",
+    "appService.deploySubpath": "."
+}
