@@ -27,7 +27,7 @@ def readalong():
 
 @app.route("/test/gettoken", methods=["POST"])
 def gettoken():
-    fetch_token_url = 'https://%s.api.cognitive.microsoft.com/sts/v1.0/issueToken' %region
+    fetch_token_url = '' %region
     headers = {
         'Ocp-Apim-Subscription-Key': subscription_key
     }
