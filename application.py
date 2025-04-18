@@ -9,7 +9,7 @@ from flask import Flask, jsonify, render_template, request, make_response
 
 app = Flask(__name__)
 
-subscription_key = '797084094df6488b8b01ed462642afbe'
+subscription_key = ''
 region = "koreacentral"
 language = "en-US"
 voice = "Microsoft Server Speech Text to Speech Voice (en-US, JennyNeural)"
